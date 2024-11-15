@@ -1,0 +1,752 @@
+body {
+  background-color: #0d0d15;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  padding: var(--Spacing32, 32px);
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+
+
+.header-menu {
+  display: flex;
+  padding: var(--Spacing0, 0px);
+  align-items: flex-start;
+  gap: var(--Spacing0, 0px);
+  list-style-type: none;
+}
+
+.header-link {
+  color: #f5f8fb;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+  display: flex;
+  height: var(--Spacing40, 40px);
+  padding: var(--Spacing8, 8px) var(--Spacing20, 20px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Spacing8, 8px);
+}
+
+.head-buttons {
+  display: flex;
+  align-items: center;
+  gap: var(--Spacing16, 16px);
+}
+
+.header-button {
+    background-color: #0d0d15;
+  color: #f5f8fb;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+  display: flex;
+  height: var(--Spacing48, 48px);
+  padding: 10px var(--Spacing24, 24px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Spacing8, 8px);
+}
+
+.header-one {
+  color: #f5f8fb;
+  font-family: "BakBak one";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: -0.5px;
+}
+
+.first-blog {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Spacing32, 32px);
+  flex: 1 0 0;
+}
+
+.middle-of-blog {
+  display: flex;
+  padding: var(--Spacing0, 0px);
+  align-items: flex-start;
+  gap: var(--Spacing64, 64px);
+  align-self: stretch;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Spacing4, 4px);
+}
+
+.profiles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Spacing4, 4px);
+}
+
+.action-bars {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 16px var(--Spacing16, 16px);
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.highlight {
+  color: #0265dc;
+}
+
+.text-binabox {
+  color: #f5f8fb;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.digits {
+    font-family: "Bakbak One";
+  color: #f5f8fb;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+}
+
+.text-blog {
+  color: rgba(239, 245, 250, 0.82);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.action-bar-wallet {  
+    background:#0265DC;
+    color: #f5f8fb;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    display: flex;
+    height: var(--Spacing48, 48px);
+    padding: 10px var(--Spacing24, 24px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--Spacing8, 8px);
+}
+
+.action-bar-whitelist{
+    background-color: #0d0d15;
+    color: #f5f8fb;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    display: flex;
+    height: var(--Spacing48, 48px);
+    padding: 10px var(--Spacing24, 24px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--Spacing8, 8px);
+}
+
+.catalog {
+  display: flex;
+  padding: var(--Spacing64, 64px);
+  flex-direction: column;
+  align-items: center;
+  gap: var(--Spacing40, 40px);
+  align-self: stretch;
+}
+
+.items-list {
+  display: flex;
+  align-items: center;
+  gap: var(--Spacing24, 24px);
+  align-self: stretch;
+}
+
+.catalog-head {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 32px var(--Spacing32, 32px);
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.header-two {
+    font-family: "Bakbak One";
+  color: #f8f7ff;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.see-all {
+  color: #f5f8fb;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.money {
+    font-family: "Bakbak One";
+  color: #f5f8fb;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
+.product {
+  color: rgba(239, 245, 250, 0.82);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.blog {
+  display: flex;
+  padding: var(--Spacing64, 64px);
+  flex-direction: column;
+  align-items: center;
+  gap: var(--Spacing40, 40px);
+  align-self: stretch;
+}
+
+.blog-list {
+  display: flex;
+  padding: var(--Spacing0, 0px);
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 32px var(--Spacing32, 32px);
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.list-one {
+  display: flex;
+  height: 900px;
+  min-width: 512px;
+  padding: var(--Spacing24, 24px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Spacing24, 24px);
+  flex: 1 0 0;
+}
+
+.list-two {
+  display: flex;
+  min-width: 608px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--Spacing32, 32px);
+  flex: 1 0 0;
+}
+
+.container-one {
+  display: flex;
+  height: 434px;
+  padding: var(--Spacing24, 24px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Spacing24, 24px);
+  align-self: stretch;
+}
+
+.container-two {
+  display: flex;
+  height: 434px;
+  padding: var(--Spacing24, 24px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Spacing24, 24px);
+  align-self: stretch;
+}
+
+.list-three {
+  display: flex;
+  min-width: 608px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--Spacing32, 32px);
+  flex: 1 0 0;
+}
+
+.container-three {
+  display: flex;
+  height: 434px;
+  padding: var(--Spacing24, 24px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Spacing24, 24px);
+  align-self: stretch;
+}
+
+.contaiiner-four {
+  display: flex;
+  height: 434px;
+  padding: var(--Spacing24, 24px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Spacing24, 24px);
+  align-self: stretch;
+}
+
+.list-four {
+  display: flex;
+  height: 900px;
+  min-width: 512px;
+  padding: var(--Spacing24, 24px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Spacing24, 24px);
+  flex: 1 0 0;
+}
+
+.person {
+  color: rgba(239, 245, 250, 0.82);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.title-name {
+    font-family: "Bakbak One";
+  color: #f5f8fb;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
+.blog-text {
+  color: rgba(239, 245, 250, 0.82);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.information {
+  color: #f5f8fb;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.features {
+  color: #f5f8fb;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.team-name {
+    font-family: "Bakbak One";
+  color: #f5f8fb;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.founder {
+  color: rgba(239, 245, 250, 0.82);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.header-four {
+  color: #f8f7ff;
+  text-align: center;
+  font-family: "Bakbak One";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
+.about-us {
+  display: flex;
+  padding: var(--Spacing64, 64px);
+  flex-direction: column;
+  align-items: center;
+  gap: var(--Spacing40, 40px);
+  align-self: stretch;
+}
+
+.container {
+  display: flex;
+  max-width: 960px;
+  padding: var(--Spacing0, 0px);
+  flex-direction: column;
+  align-items: center;
+  gap: var(--Spacing16, 16px);
+  align-self: stretch;
+}
+
+.box-list {
+  display: flex;
+  max-width: 960px;
+  padding: var(--Spacing0, 0px);
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 32px var(--Spacing32, 32px);
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.cube-one {
+  display: flex;
+  min-width: 328px;
+  padding: var(--Spacing32, 32px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: -40px;
+  flex: 1 0 0;
+}
+
+.cube-two {
+  display: flex;
+  min-width: 328px;
+  padding: var(--Spacing32, 32px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: -40px;
+  flex: 1 0 0;
+}
+
+.cube-three {
+  display: flex;
+  min-width: 328px;
+  padding: var(--Spacing32, 32px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: -40px;
+  flex: 1 0 0;
+}
+
+.cube-four {
+  display: flex;
+  min-width: 328px;
+  padding: var(--Spacing32, 32px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: -40px;
+  flex: 1 0 0;
+}
+
+.text {
+  color: rgba(239, 245, 250, 0.82);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.box-header {
+    font-family: "Bakbak One";
+  text-align: center;
+  color: #f5f8fb;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.cube-text {
+  color: rgba(239, 245, 250, 0.82);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.list-text {
+    font-family: "Bakbak One";
+  color: #f5f8fb;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.text-nft {
+  color: #f5f8fb;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.binabox {
+  color: #0265dc;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+}
+
+.team {
+  display: flex;
+  padding: var(--Spacing64, 64px);
+  flex-direction: column;
+  align-items: center;
+  gap: var(--Spacing40, 40px);
+  align-self: stretch;
+}
+
+.team-box {
+  display: flex;
+  width: 1300px;
+  min-width: 1300px;
+  max-width: 1300px;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 40px var(--Spacing40, 40px);
+  flex-wrap: wrap;
+} 
+ 
+.card-one {
+  display: flex;
+  width: 293px;
+  height: 316px;
+  min-width: 293px;
+  padding: var(--Spacing32, 32px);
+  flex-direction: column;
+  align-items: center;
+  gap: var(--Spacing16, 16px);
+  flex-shrink: 0;
+}
+
+.header-five {
+  color: #f8f7ff;
+  text-align: center;
+  font-family: "Bakbak One";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+} 
+ 
+.faqs {
+  display: flex;
+  width: 1728px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Spacing0, 0px);
+}
+
+.header-six{
+  color: #f8f7ff;
+  text-align: center;
+  font-family: "Bakbak One";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
+.faqs-box {
+  display: flex;
+  max-width: 960px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.faqs-list-one {
+  display: flex;
+  padding: var(--Spacing24, 24px) var(--Spacing24, 24px) var(--Spacing32, 32px)
+    var(--Spacing24, 24px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--Spacing16, 16px);
+  align-self: stretch;
+}
+
+.faqs-list-two {
+  display: flex;
+  padding: var(--Spacing24, 24px);
+  align-items: center;
+  gap: var(--Spacing16, 16px);
+  align-self: stretch;
+}
+
+.footer {
+  display: flex;
+  padding: var(--Spacing64, 64px) var(--Spacing64, 64px) var(--Spacing32, 32px)
+    var(--Spacing64, 64px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Spacing64, 64px);
+  align-self: stretch;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  row-gap: 36px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.footer-menu {
+  display: flex;
+  width: 328px;
+  max-width: 360px;
+  align-items: flex-start;
+  gap: var(--Spacing24, 24px);
+}
+
+.media {
+  display: flex;
+  padding-top: var(--Spacing32, 32px);
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  row-gap: 20px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.footer-text {
+  color: #f5f8fb;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer-header{
+  color: #f5f8fb;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.subcribe-list {
+    text-decoration: none;
+  color: #f5f8fb;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.footer-lower-part {
+  color: #f5f8fb;
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.header-three{
+  color: #f8f7ff;
+  text-align: center;
+  font-family: "Bakbak One";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
+.header-button-connect{
+    background: #0265DC;
+    text-decoration: none;
+    display: flex;
+height: var(--Spacing48, 48px);
+padding: 10px var(--Spacing24, 24px);
+justify-content: center;
+align-items: center;
+gap: var(--Spacing8, 8px);
+}
+
+.head-name{
+    color:  #FFF;
+font-family: "Bakbak One";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+text-transform: capitalize;
+}
+
+.next{
+    background: #0265DC;
+    display: flex;
+width: var(--Spacing48, 48px);
+height: var(--Spacing48, 48px);
+padding: var(--Spacing16, 16px);
+justify-content: center;
+align-items: center;
+gap: 8px;
+}
+
+.prev{
+    display: flex;
+width: var(--Spacing48, 48px);
+height: var(--Spacing48, 48px);
+padding: var(--Spacing16, 16px);
+justify-content: center;
+align-items: center;
+gap: 8px;
+}
+
+.footer-list{
+    list-style-type: none;
+}
