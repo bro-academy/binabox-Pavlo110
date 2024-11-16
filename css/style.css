@@ -1,174 +1,251 @@
 body {
   background-color: #0d0d15;
   font-family: "Poppins", Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.5;
+}
+
+.head-name{
+  color: #FFF;
+font-family: "Bakbak One";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px; 
+text-transform: capitalize;
+}
+
+.header-link{
+  color:  #F5F8FB;
+  text-decoration: none;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+}
+
+.header-button{
+  color: #F5F8FB;
+  text-decoration: none;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+}
+
+.header-button-connect{
+  background: #0265DC;
+  text-decoration: none;
+  color: #F5F8FB;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+}
+
+.header-one{
+  color: #F8F7FF;
+text-align: center;
+font-family: "Bakbak One";
+font-size: 52px;
+font-style: normal;
+font-weight: 400;
+line-height: 62px;
+letter-spacing: -0.5px;
+}
+
+.page-link{
+  color:#F5F8FB;
+  text-decoration: none;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; 
+}
+
+.header-two{
+  color: #F5F8FB;
+font-family: "Bakbak One";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.list-items{
+  color:#F5F8FB;
+  text-decoration: none;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+}
+
+.header-three{
+  color: #F5F8FB;
+font-family: "Bakbak One";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+
+.button-list{
+  text-decoration: none;
+  color:#F5F8FB;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; 
+}
+
+.header-four{
+  color:#F8F7FF;
+font-family: "Bakbak One";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: -0.5px;
+}
+
+.game{
+  color:#F5F8FB;
+  background: #0265DC;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+}
+
+.person{
+  color:rgba(239, 245, 250, 0.82);
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+}
+.highlight{
+  background-color: #0265DC;
+  color: #F5F8FB;
+}
+
+.center-text{
+  color: #F8F7FF;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+}
+.text-link{
+  text-decoration: none;
+}
+
+.list-text{
+  color:#F8F7FF;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+
+.catalog{
+  color: #F8F7FF;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+
+.blog{
+background: #002754;
+}
+
+.text-block{
   color:  #F8F7FF;
-  font-style:normal
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; 
+text-transform: capitalize;
 }
 
-.head-name {
-  font-family: "Bakbak One";
-  font-size: 32px;
-  line-height: 1.3;
-  text-transform: capitalize;
+.lower-block{
+  color: #F8F7FF;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; 
 }
 
-.header-link {
+.header-five{
+  color: #F8F7FF;
+font-family: "Bakbak One";
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; 
+}
+
+.header-six{
+  color:  #F8F7FF;
+font-family: "Bakbak One";
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+}
+
+.small-header{
+  color: #F8F7FF;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.binabox{
+  color:#0265DC;
+font-family: "Bakbak One";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+text-transform: capitalize;
+}
+
+.footer-text{
+  color: #F5F8FB;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+}
+
+.footer-header{
+  color: #F5F8FB;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+}
+
+.subcribe-list{
+  color: #F5F8FB;
   text-decoration: none;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
+text-align: center;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px;
 }
 
-.header-button {
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.header-button-connect {
-  background: #0265dc;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.header-one {
-  text-align: center;
-  font-family: "Bakbak One";
-  font-size: 52px;
-  line-height: 1.2;
-  letter-spacing: -0.5px;
-}
-
-.page-link {
-  text-decoration: none;
-  text-align: center;
-  font-weight: 600;
-  line-height: 1.4;
-}
-
-.header-two {
-  font-family: "Bakbak One";
-  font-size: 24px;
-  line-height: 1.3;
-}
-
-.list-items {
-  text-decoration: none;
-  font-weight: 600;
-  line-height: 20px;
-}
-
-.header-three {
-  font-family: "Bakbak One";
-  font-size: 24px;
-  line-height: 1.4;
-}
-
-.button-list {
-  text-decoration: none;
-  text-align: center;
-  line-height: 1.4;
-}
-
-.header-four {
-  font-family: "Bakbak One";
-  font-size: 36px;
-  line-height: 1.3;
-  letter-spacing: -0.5px;
-}
-
-.game {
-  background: #0265dc;
-  font-size: 18px;
-}
-
-.person {
-  line-height: 1.4;
-}
-.highlight {
-  background-color: #0265dc;
-}
-
-.center-text {
-  font-size: 18px;
-}
-.text-link {
-  text-decoration: none;
-}
-
-.list-text {
-  font-size: 18px;
-}
-
-.catalog {
-  font-size: 18px;
-}
-
-.blog {
-  background: #002754;
-}
-
-.text-block {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.2;
-  text-transform: capitalize;
-}
-
-.lower-block {
-  font-weight: 600;
-  line-height: 1.4;
-}
-
-.header-five {
-  font-family: "Bakbak One";
-  font-size: 28px;
-  line-height: 1.3;
-}
-
-.header-six {
-  font-family: "Bakbak One";
-  font-size: 28px;
-  line-height: 36px;
-}
-
-.small-header {
-  font-size: 16px;
-  line-height: 1.3;
-}
-
-.binabox {
-  color: #0265dc;
-  font-family: "Bakbak One";
-  font-size: 32px;
-  line-height: 1.3;
-  text-transform: capitalize;
-}
-
-.footer-text {
-  line-height: 1.4;
-}
-
-.footer-header {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.4;
-}
-
-.subcribe-list {
-  text-decoration: none;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 1.3;
-}
-
-.footer-lower-part {
-  text-align: left;
-  font-weight: 400;
-  line-height: 1.4;
+.footer-lower-part{
+  color:#F5F8FB;
+text-align: left;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
 }
