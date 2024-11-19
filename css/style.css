@@ -46,11 +46,11 @@ body {
   line-height: 1.2;
   letter-spacing: -0.5px;
 }
-.page-link{
-font-weight: 600;
-color: #f8f7ff;
-text-decoration: none;
-line-height: 1.4; 
+.page-link {
+  font-weight: 600;
+  color: #f8f7ff;
+  text-decoration: none;
+  line-height: 1.4;
 }
 
 .heading-aside {
@@ -125,7 +125,7 @@ line-height: 1.4;
   line-height: 1.4;
 }
 
-.heading-information{
+.heading-information {
   font-family: "Bakbak One";
   font-size: 28px;
   line-height: 1.4;
@@ -141,13 +141,12 @@ line-height: 1.4;
   font-size: 16px;
 }
 
-.small-heading-list{
+.small-heading-list {
   color: #f8f7ff;
   text-decoration: none;
-font-weight: 600;
-line-height: 20px;
+  font-weight: 600;
+  line-height: 20px;
 }
-
 
 .binabox {
   color: #0265dc;
