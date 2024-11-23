@@ -179,3 +179,23 @@ body {
   text-align: left;
   line-height: 1.4;
 }
+
+.next {
+  background-color: #0265dc;
+}
+
+.prev {
+  background-color: #0d0d15;
+}
+
+.see-all {
+  text-decoration: none;
+  color: #f8f7ff;
+}
+
+.heading-blog {
+  text-align: center;
+  font-family: "Bakbak One";
+  font-size: 36px;
+  line-height: 1.3;
+}
