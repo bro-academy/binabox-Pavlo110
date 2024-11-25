@@ -9,10 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="./favicon/favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="favicon-16x16.png" sizes="16x16">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
   </head>
   <body>
     <header class="header">
-        <p class="head-name"><img class="header-logo" src="images/binabox-logo.svg" alt="blue icon binabox" width="36" height="40" />BINABOX</p>
+      <p class="head-name"><img class="header-logo" src="images/binabox-logo.svg" alt="blue icon binabox" width="36" height="40" />BINABOX</p>
       <div class="header-list">
         <ul class="header-menu">
 <li><a class="header-link" href="#">Home</a></li>
@@ -22,11 +26,14 @@
         </ul>
       </div>
       <div class="head-buttons"> 
-        <a class="header-button" href="#"><img src="images/discord-logo.svg" alt="discord logo" width="24" height="24" />Discord</a>
-        <a class="header-button-connect" href="#"><img src="/images/wallet-icon.svg" alt="wallet icon" width="18" height="18" />Connect</a>
-      </div>
+        <a class="header-button" href="#"><svg class="icon">
+          <use xlink:href="images/sprite.svg#discord-logo"></use>
+        </svg> Discord</a>
+        <a class="header-button-connect" href="#"><svg class="icon">
+          <use xlink:href="images/sprite.svg#calendar-icon"></use>
+        </svg>Connect</a>
+      </div> 
     </header>
-    </nav>
       <main>
       <h1 class="heading-title">Our Blog</h1>
       <div class="menu">
@@ -65,8 +72,13 @@
       <h4 class="heading-text">The Basilisks NFT</h4>
       <button class="game">Gameing</button>
       <div class="text">
-        <p class="person"> <img src="images/user-icon.svg" alt="user icon" width="11" height="12" />
-          Tony Nguyen <img src="images/calendar-icon.svg" width="12" height="13" alt="calendar" />20 Jun 2022</p>
+        <p class="person">
+          <svg>
+            <use xlink:href="images/sprite.svg#user-icon"></use>
+          </svg>Tony Nguyen
+          <svg>
+            <use xlink:href="images/sprite.svg#calendar-icon"></use>
+          </svg>20 Jun 2022</p>
       </div>
       <p class="center-text">
         The Basilisks that <span class="highlight">players</span> collect are represented with NFTs on
@@ -107,13 +119,16 @@
       <div class="blog">
         <p class="text-block">"The First Huge Metaverse Arena To Arenge Life Sports,Hang Out And Even
         Make Bets And Wagers"<br /></p>
-        <p class="lower-block"><img src="images/yellow-stars.svg" alt="three yellow stars" width="13" height="13" />8.5/10 Markout Corporation</p>
+        <p class="lower-block">
+          <svg>
+            <use xlink:href="images/sprite.svg#yellow-stars">
+            </use>
+          </svg> 8.5/10 Markout Corporation</p>
       </div>
       <div class="text"><img src="images/dragons-head.webp" alt=" shining blue-eyed dragon's head" width="448" height="390" />
         <img src="images/green-eyed-dragon.webp" alt="big green dragon staring at man" width="448" height="390" /></div>
       <h5 class="heading-information">NFTs are digital assets that represent real-world objects</h5>
-
-      <p class="center-text">
+         <p class="center-text">
         Setting up your avatar and personalizing your nickname on Binance is
         quick and easy. Users can go to<br />
         binance.com under Dashboard > Settings > My Profile > Avatar and
@@ -141,55 +156,92 @@
         or list your own NFTs for sale
       </p>
       <div class="lower-text">
-        <ul class="small-heading">Tags:
+        <p>Tags:</p>  
+        <ul class="small-heading">
           <li><a class="small-heading-list" href="#">NFT</a></li>
           <li><a class="small-heading-list" href="#">ICO</a></li>
           <li><a class="small-heading-list" href="#">Crypto</a></li>
         </ul>
       </div>
       <div class="social media">
-        <ul class="small-heading">Share:
-          <li><a class="small-heading-list" href="#"><img src="images/twitter-icon.svg" alt="twitter icon" width="13" height="11"></a></li>
-          <li><a class="small-heading-list" href="#"><img src="images/facebook-icon.svg" alt="facebook icon" width="11" height="11"> </a></li>
-          <li><a class="small-heading-list" href="#"><img src="images/instagram-icon.svg" alt="instagram icon" width="12" height="12"></a></li>
-
+        <p>Share:</p>
+        <ul class="small-heading">
+          <li><a class="small-heading-list" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#twitter-icon">
+              </use>
+            </svg>
+          </a></li>
+          <li><a class="small-heading-list" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#facebook-icon">
+              </use>
+            </svg> </a></li>
+          <li><a class="small-heading-list" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#instagram-icon">
+              </use>
+            </svg>
+          </a></li>
         </ul>
       </div>
       </main>
-      <footer class="footer"></footer>
-      <div class="footer-box">
+      <footer class="footer">
+        <div class="footer-box">
         <div class="footer-heaading">
           <p class="binabox"><img src="images/binabox-logo.svg" alt="binabox logo" width="35" height="39">Binabox</p>
           <p class="footer-text">We are the best way to check the rarity of NFT collection.</p>
         </div>
         <div class="footer-menu"></div>
         <div class="footer-header"> Subcribe</div>
-        <ul class="subcribe">
+        <ul class="footer-list">
           <li><a class="subcribe-list" href="#">Home</a></li>
           <li><a class="subcribe-list" href="#">Blog</a></li>
           <li><a class="subcribe-list" href="#">Catalog</a></li>
           <li><a class="subcribe-list" href="#">Contact Us</a></li>
         </ul>
         <div class="footer-header"> Company</div>
-        <ul class="subcribe">
+        <ul class="footer-list">
           <li><a class="subcribe-list" href="#">Terms Conditions</a></li>
           <li><a class="subcribe-list" href="#">Privacy Policy</a></li>
           <li><a class="subcribe-list" href="#">Whitepaper</a></li>
           <li><a class="subcribe-list" href="#">Help Center</a></li>
         </ul>
         <hr />
-      </div>
-      <div class="media">
-        <p class="footer-lower-part">BINABOX 2022 - ALL rights reserved</p>
-        <a class="twitter" href="#"><img src="images/twitter-icon.svg" alt="twitter icon" width="20" height="17"></a>
-        <a class="facebook" href="#"><img src="images/facebook-icon.svg" alt="facebook icon" width="20" height="20"></a>
-        <a class="telegramm" href="#"><img src="images/telegram-icon.svg" alt="telegram icon" width="24" height="19"></a>
-        <a class="youtube" href="#"><img src="images/youtube-icon.svg" alt="youtube icon" width="23" height="17"></a>
-        <a class="tiktok" href="#"><img src="images/tiktok-icon.svg" alt="tiktok icon" width="18" height="18"></a>
-        <a class="discord" href="#"><img src="images/discord-logo.svg" alt="discord-logo" width="22" height="18"></a>
         </div>
+        <div class="media">
+          <p class="footer-lower-part">BINABOX 2022 - ALL rights reserved</p>
+          <a class="twitter" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#twitter-icon"></use>
+            </svg>
+          </a>
+          <a class="facebook" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#facebook-icon"></use>
+            </svg>
+          </a>
+          <a class="telegramm" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#telegram-icon"></use>
+            </svg>
+          </a>
+          <a class="youtube" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#youtube-icon"></use>
+            </svg>
+          </a>
+          <a class="tiktok" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#tiktok-icon"></use>
+            </svg>
+          </a>
+          <a class="discord" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#tdiscord-icon"></use>
+            </svg>
+          </a>
         </div>
       </footer>
-    </main>
   </body>
 </html>

@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="./favicon/favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="favicon-16x16.png" sizes="16x16">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
   </head>
   <body>
     <header class="header">
@@ -22,9 +26,13 @@
         </ul>
       </div>
       <div class="head-buttons"> 
-        <a class="header-button" href="#"><img src="images/discord-logo.svg" alt="discord logo" width="24" height="24" />Discord</a>
-        <a class="header-button-connect" href="#"><img src="/images/wallet-icon.svg" alt="wallet icon" width="18" height="18" />Connect</a>
-      </div>
+        <a class="header-button" href="#"><svg class="icon">
+          <use xlink:href="images/sprite.svg#discord-logo"></use>
+        </svg> Discord</a>
+        <a class="header-button-connect" href="#"><svg class="icon">
+          <use xlink:href="images/sprite.svg#calendar-icon"></use>
+        </svg>Connect</a>
+      </div> 
     </header>
     <main class="main">
     <div class="first-box">
@@ -46,9 +54,14 @@
         <button class="action-bar-whitelist">Whitelist now</button>
       </div>
     </div>
+    </div>
       <div class="catalog">
         <div class="catalog-head">
-        <h2 class="header-two"><img src="images/folder-icon.svg" alt="folder icon" width="24" height="24" />Catalog</h2>
+        <h2 class="header-two">
+          <svg>
+          <use xlink:href="images/sprite.svg#folder-icon"></use>
+        </svg>
+        Catalog</h2>
         <a class="see-all" href="#">See all</a>
         <button class="prev"><img src="images/previos-icon.svg" alt="button action previos" width="24" height="24"></button>
         <button class="next"><img src="images/next-icon.svg" alt="button action next" width="24" height="24"></button>
@@ -87,8 +100,13 @@
         <ul class="blog-list">
           <li class="list-one">
             <img src="images/face.webp" alt="woman's face" width="736" height="640" />
-            <p class="person"><img src="images/user-icon.svg" alt="user icon" width="11" height="12" />Tony Nguyen
-              <img src="images/calendar-icon.svg" width="12" height="13" alt="calendar" />20 Jun 2022</p>
+            <p class="person">
+              <svg>
+                <use xlink:href="images/sprite.svg#user-icon"></use>
+              </svg>Tony Nguyen
+              <svg>
+                <use xlink:href="images/sprite.svg#calendar-icon"></use>
+              </svg>20 Jun 2022</p>
             <p class="title-name">Sonic live</p>
             <p class="blog-text">One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
             nulla imperdiet...</p>
@@ -97,8 +115,13 @@
           <li class="list-two">
             <div class="container-one">
             <img src="images/monkey.webp" alt="monkey's face looking on you" width="736" height="174" />
-            <p class="person"><img src="images/user-icon.svg" alt="user icon" width="11" height="12" />
-              Tony Nguyen <img src="images/calendar-icon.svg" width="12" height="13" alt="calendar" />20 Jun 2022</p>
+            <p class="person">
+              <svg>
+                <use xlink:href="images/sprite.svg#user-icon"></use>
+              </svg>Tony Nguyen
+              <svg>
+                <use xlink:href="images/sprite.svg#calendar-icon"></use>
+              </svg>20 Jun 2022</p>
             <p class="title-name">Sonic live</p>
             <p class="blog-text">One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
             nulla imperdiet...</p>
@@ -106,8 +129,13 @@
             </div>
             <div class="container-two">
             <img src="images/goose.webp" alt="white goose" width="736" height="174" />
-            <p class="person"><img src="images/user-icon.svg" alt="user icon" width="11" height="12" />
-              Tony Nguyen <img src="images/calendar-icon.svg" width="12" height="13" alt="calendar" />20 Jun 2022</p>
+            <p class="person">
+              <svg>
+                <use xlink:href="images/sprite.svg#user-icon"></use>
+              </svg>Tony Nguyen
+              <svg>
+                <use xlink:href="images/sprite.svg#calendar-icon"></use>
+              </svg>20 Jun 2022</p>
             <p class="title-name">Sonic live</p>
             <p class="blog-text">One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
             nulla imperdiet...</p>
@@ -117,8 +145,13 @@
           <li class="list-three">
             <div class="container-three">
             <img src="images/skeleton-main-page.webp" alt="bones in smoke" width="736" height="174"/>
-            <p class="person"> <img src="images/user-icon.svg" alt="user icon" width="11" height="12" />
-              Tony Nguyen <img src="images/calendar-icon.svg" width="12" height="13" alt="calendar" />20 Jun 2022</p>
+            <p class="person">
+              <svg>
+                <use xlink:href="images/sprite.svg#user-icon"></use>
+              </svg>Tony Nguyen
+              <svg>
+                <use xlink:href="images/sprite.svg#calendar-icon"></use>
+              </svg>20 Jun 2022</p>
             <p class="title-name">Sonic live</p>
             <p class="blog-text">One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
             nulla imperdiet...</p>
@@ -126,8 +159,13 @@
             </div>
             <div class="container-four">
             <img src="images/black-cat-main-page.webp" alt="green-eyed black cat" width="736" height="174" />
-            <p class="person"><img src="images/user-icon.svg" alt="user icon" width="11" height="12" />Tony Nguyen 
-              <img src="images/calendar-icon.svg" width="12" height="13" alt="calendar" />20 Jun 2022</p>
+            <p class="person">
+              <svg>
+                <use xlink:href="images/sprite.svg#user-icon"></use>
+              </svg>Tony Nguyen
+              <svg>
+                <use xlink:href="images/sprite.svg#calendar-icon"></use>
+              </svg>20 Jun 2022</p>
             <p class="title-name">Sonic live</p>
             <p class="blog-text">One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
             nulla imperdiet...</p>
@@ -136,8 +174,13 @@
           </li>
           <li class="list-four">
             <img src="images/gameboy-main-page.webp" alt="neon gameboy" width="736" height="640" />
-            <p class="person"><img src="images/user-icon.svg" alt="user icon" width="11" height="12" />
-              Tony Nguyen <img src="images/calendar-icon.svg" width="12" height="13" alt="calendar" />20 Jun 2022</p>
+            <p class="person">
+              <svg>
+                <use xlink:href="images/sprite.svg#user-icon"></use>
+              </svg>Tony Nguyen
+              <svg>
+                <use xlink:href="images/sprite.svg#calendar-icon"></use>
+              </svg>20 Jun 2022</p>
             <p class="title-name">Sonic live</p>
             <p class="blog-text">One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
             nulla imperdiet...</p>
@@ -186,65 +229,184 @@
           <li class="card-one">
             <img src="images/team-image.svg" alt="handsome bearded man" width="127" height="127" /><p class="team-name">Jason Smith</p>
             <p class="founder">Co-founder</p>
-            <a class="twitter" href="#"><img src="images/twitter-icon.svg" alt="twitter icon" width="24" height="24"></a>
-            <a class="facebook" href="#"><img src="images/facebook-icon.svg" alt="facebook icon" width="24" height="24"></a>
-            <a class="telegramm" href="#"><img src="images/telegram-icon.svg" alt="telegram icon" width="24" height="24"></a>
-            <a class="in" href="#"><img src="images/icons-flat-social.svg" alt="in icon" width="24" height="24"></a>
-            <a class="instagram" href="#"><img src="images/instagram-icon.svg" alt="instagram-icon" width="24" height="24"></a>
+            <a class="twitter" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#twitter-icon"></use>
+              </svg>
+            </a>
+            <a class="facebook" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#facebook-icon"></use>
+              </svg>
+            </a>
+            <a class="telegramm" href="#"> 
+              <svg>
+              <use xlink:href="images/sprite.svg#telegram-icon"></use>
+            </svg></a>
+            <a class="in" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#icons-flat-social"></use>
+              </svg>
+            </a>
+            <a class="instagram" href="#"> <svg>
+              <use xlink:href="images/sprite.svg#instagram-icon"></use>
+            </svg></a>
           </li>
           <li class="card-one">
             <img src="images/team-image.svg" alt="handsome bearded man" width="127" height="127" /><p class="team-name">Jason Smith</p>
             <p class="founder">Co-founder</p>
-            <a class="twitter" href="#"><img src="images/twitter-icon.svg" alt="twitter icon" width="24" height="24"></a>
-            <a class="facebook" href="#"><img src="images/facebook-icon.svg" alt="facebook icon" width="24" height="24"></a>
-            <a class="telegramm" href="#"><img src="images/telegram-icon.svg" alt="telegram icon" width="24" height="24"></a>
-            <a class="in" href="#"><img src="images/icons-flat-social.svg" alt="in icon" width="24" height="24"></a>
-            <a class="instagram" href="#"><img src="images/instagram-icon.svg" alt="instagram-icon" width="24" height="24"></a>
+            <a class="twitter" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#twitter-icon"></use>
+              </svg>
+            </a>
+            <a class="facebook" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#facebook-icon"></use>
+              </svg>
+            </a>
+            <a class="telegramm" href="#"> 
+              <svg>
+              <use xlink:href="images/sprite.svg#telegram-icon"></use>
+            </svg></a>
+            <a class="in" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#icons-flat-social"></use>
+              </svg>
+            </a>
+            <a class="instagram" href="#"> <svg>
+              <use xlink:href="images/sprite.svg#instagram-icon"></use>
+            </svg></a>
           </li>
           <li class="card-one">
             <img src="images/team-image.svg" alt="handsome bearded man" width="127" height="127" /><p class="team-name">Jason Smith</p>
             <p class="founder">Co-founder</p>
-            <a class="twitter" href="#"><img src="images/twitter-icon.svg" alt="twitter icon" width="24" height="24"></a>
-            <a class="facebook" href="#"><img src="images/facebook-icon.svg" alt="facebook icon" width="24" height="24"></a>
-            <a class="telegramm" href="#"><img src="images/telegram-icon.svg" alt="telegram icon" width="24" height="24"></a>
-            <a class="in" href="#"><img src="images/icons-flat-social.svg" alt="in icon" width="24" height="24"></a>
-            <a class="instagram" href="#"><img src="images/instagram-icon.svg" alt="instagram-icon" width="24" height="24"></a>
+            <a class="twitter" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#twitter-icon"></use>
+              </svg>
+            </a>
+            <a class="facebook" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#facebook-icon"></use>
+              </svg>
+            </a>
+            <a class="telegramm" href="#"> 
+              <svg>
+              <use xlink:href="images/sprite.svg#telegram-icon"></use>
+            </svg></a>
+            <a class="in" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#icons-flat-social"></use>
+              </svg>
+            </a>
+            <a class="instagram" href="#"> <svg>
+              <use xlink:href="images/sprite.svg#instagram-icon"></use>
+            </svg></a>
           </li>
           <li class="card-one">
             <img src="images/team-image.svg" alt="handsome bearded man" width="127" height="127" /><p class="team-name">Jason Smith</p>
             <p class="founder">Co-founder</p>
-            <a class="twitter" href="#"><img src="images/twitter-icon.svg" alt="twitter icon" width="24" height="24"></a>
-            <a class="facebook" href="#"><img src="images/facebook-icon.svg" alt="facebook icon" width="24" height="24"></a>
-            <a class="telegramm" href="#"><img src="images/telegram-icon.svg" alt="telegram icon" width="24" height="24"></a>
-            <a class="in" href="#"><img src="images/icons-flat-social.svg" alt="in icon" width="24" height="24"></a>
-            <a class="instagram" href="#"><img src="images/instagram-icon.svg" alt="instagram-icon" width="24" height="24"></a>
+            <a class="twitter" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#twitter-icon"></use>
+              </svg>
+            </a>
+            <a class="facebook" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#facebook-icon"></use>
+              </svg>
+            </a>
+            <a class="telegramm" href="#"> 
+              <svg>
+              <use xlink:href="images/sprite.svg#telegram-icon"></use>
+            </svg></a>
+            <a class="in" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#icons-flat-social"></use>
+              </svg>
+            </a>
+            <a class="instagram" href="#"> <svg>
+              <use xlink:href="images/sprite.svg#instagram-icon"></use>
+            </svg></a>
           </li>
           <li class="card-one">
             <img src="images/team-image.svg" alt="handsome bearded man" width="127" height="127" /><p class="team-name">Jason Smith</p>
             <p class="founder">Co-founder</p>
-            <a class="twitter" href="#"><img src="images/twitter-icon.svg" alt="twitter icon" width="24" height="24"></a>
-            <a class="facebook" href="#"><img src="images/facebook-icon.svg" alt="facebook icon" width="24" height="24"></a>
-            <a class="telegramm" href="#"><img src="images/telegram-icon.svg" alt="telegram icon" width="24" height="24"></a>
-            <a class="in" href="#"><img src="images/icons-flat-social.svg" alt="in icon" width="24" height="24"></a>
-            <a class="instagram" href="#"><img src="images/instagram-icon.svg" alt="instagram-icon" width="24" height="24"></a>
+            <a class="twitter" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#twitter-icon"></use>
+              </svg>
+            </a>
+            <a class="facebook" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#facebook-icon"></use>
+              </svg>
+            </a>
+            <a class="telegramm" href="#"> 
+              <svg>
+              <use xlink:href="images/sprite.svg#telegram-icon"></use>
+            </svg></a>
+            <a class="in" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#icons-flat-social"></use>
+              </svg>
+            </a>
+            <a class="instagram" href="#"> <svg>
+              <use xlink:href="images/sprite.svg#instagram-icon"></use>
+            </svg></a>
           </li>
           <li class="card-one">
             <img src="images/team-image.svg" alt="handsome bearded man" width="127" height="127" /><p class="team-name">Jason Smith</p>
             <p class="founder">Co-founder</p>
-            <a class="twitter" href="#"><img src="images/twitter-icon.svg" alt="twitter icon" width="24" height="24"></a>
-            <a class="facebook" href="#"><img src="images/facebook-icon.svg" alt="facebook icon" width="24" height="24"></a>
-            <a class="telegramm" href="#"><img src="images/telegram-icon.svg" alt="telegram icon" width="24" height="24"></a>
-            <a class="in" href="#"><img src="images/icons-flat-social.svg" alt="in icon" width="24" height="24"></a>
-            <a class="instagram" href="#"><img src="images/instagram-icon.svg" alt="instagram-icon" width="24" height="24"></a>
+            <a class="twitter" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#twitter-icon"></use>
+              </svg>
+            </a>
+            <a class="facebook" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#facebook-icon"></use>
+              </svg>
+            </a>
+            <a class="telegramm" href="#"> 
+              <svg>
+              <use xlink:href="images/sprite.svg#telegram-icon"></use>
+            </svg></a>
+            <a class="in" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#icons-flat-social"></use>
+              </svg>
+            </a>
+            <a class="instagram" href="#"> <svg>
+              <use xlink:href="images/sprite.svg#instagram-icon"></use>
+            </svg></a>
           </li>
           <li class="card-one">
             <img src="images/team-image.svg" alt="handsome bearded man" width="127" height="127" /><p class="team-name">Jason Smith</p>
             <p class="founder">Co-founder</p>
-            <a class="twitter" href="#"><img src="images/twitter-icon.svg" alt="twitter icon" width="24" height="24"></a>
-            <a class="facebook" href="#"><img src="images/facebook-icon.svg" alt="facebook icon" width="24" height="24"></a>
-            <a class="telegramm" href="#"><img src="images/telegram-icon.svg" alt="telegram icon" width="24" height="24"></a>
-            <a class="in" href="#"><img src="images/icons-flat-social.svg" alt="in icon" width="24" height="24"></a>
-            <a class="instagram" href="#"><img src="images/instagram-icon.svg" alt="instagram-icon" width="24" height="24"></a>
+            <a class="twitter" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#twitter-icon"></use>
+              </svg>
+            </a>
+            <a class="facebook" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#facebook-icon"></use>
+              </svg>
+            </a>
+            <a class="telegramm" href="#"> 
+              <svg>
+              <use xlink:href="images/sprite.svg#telegram-icon"></use>
+            </svg></a>
+            <a class="in" href="#">
+              <svg>
+                <use xlink:href="images/sprite.svg#icons-flat-social"></use>
+              </svg>
+            </a>
+            <a class="instagram" href="#"> <svg>
+              <use xlink:href="images/sprite.svg#instagram-icon"></use>
+            </svg></a>
           </li>
         </ul>
       </div>
@@ -270,6 +432,7 @@
           </li>
         </ul>
       </div>
+    </main>
       <footer class="footer">
         <div class="footer-box">
         <div class="footer-heaading">
@@ -295,14 +458,37 @@
         </div>
         <div class="media">
           <p class="footer-lower-part">BINABOX 2022 - ALL rights reserved</p>
-          <a class="twitter" href="#"><img src="images/twitter-icon.svg" alt="twitter icon" width="20" height="17"></a>
-          <a class="facebook" href="#"><img src="images/facebook-icon.svg" alt="facebook icon" width="20" height="20"></a>
-          <a class="telegramm" href="#"><img src="images/telegram-icon.svg" alt="telegram icon" width="24" height="19"></a>
-          <a class="youtube" href="#"><img src="images/youtube-icon.svg" alt="youtube icon" width="23" height="17"></a>
-          <a class="tiktok" href="#"><img src="images/tiktok-icon.svg" alt="tiktok icon" width="18" height="18"></a>
-          <a class="discord" href="#"><img src="images/discord-logo.svg" alt="discord-logo" width="22" height="18"></a>
+          <a class="twitter" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#twitter-icon"></use>
+            </svg>
+          </a>
+          <a class="facebook" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#facebook-icon"></use>
+            </svg>
+          </a>
+          <a class="telegramm" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#telegram-icon"></use>
+            </svg>
+          </a>
+          <a class="youtube" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#youtube-icon"></use>
+            </svg>
+          </a>
+          <a class="tiktok" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#tiktok-icon"></use>
+            </svg>
+          </a>
+          <a class="discord" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#tdiscord-icon"></use>
+            </svg>
+          </a>
         </div>
       </footer>
-    </main>
   </body>
 </html>
