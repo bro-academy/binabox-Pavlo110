@@ -5,68 +5,312 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet" />
+    <link rel="icon" href="./favicon/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
   </head>
   <body>
     <header class="header">
-        <img class="header-logo" src="" alt="" /><p>Binabox</p>
+      <p class="head-name">
+        <img
+          class="header-logo"
+          src="images/binabox-logo.svg"
+          alt="blue icon binabox"
+          width="36"
+          height="40" />BINABOX
+      </p>
       <div class="header-list">
-        <a class="header-link" href="#">Home</a>
-        <a class="header-link" href="#">Blog</a>
-        <a class="header-link" href="#">Catalog</a>
-        <a class="header-link" href="#">Contact Us</a>
+        <ul class="header-menu">
+          <li><a class="header-link" href="#">Home</a></li>
+          <li><a class="header-link" href="#">Blog</a></li>
+          <li><a class="header-link" href="#">Catalog</a></li>
+          <li><a class="header-link" href="#">Contact Us</a></li>
+        </ul>
       </div>
-      <div class="head-buttons"> 
-        <a class="header-button" href="#"><img src="" alt="" />Discord</a>
-        <a class="header-button" href="#"><img src="" alt="" />Connect</a>
+      <div class="head-buttons">
+        <svg
+          width="56"
+          height="57"
+          viewBox="0 0 56 57"
+          xmlns="http://www.w3.org/2000/svg">
+          <use xlink:href="images/spite.svg#search-icon" />
+        </svg>
+        <form>
+          <input type="search" id="search" value="Search" />
+        </form>
+        <a class="header-button" href="#"
+          ><svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon">
+            <use xlink:href="images/sprite.svg#discord-logo" />
+          </svg>
+          Discord</a
+        >
+        <a class="header-button-connect" href="#"
+          ><svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon">
+            <use xlink:href="images/sprite.svg#wallet-icon" />
+          </svg>
+          Connect</a
+        >
       </div>
     </header>
-<body>
-    <form>
-        <div>
-          <label>
-            Name
-            <input type="text" name="name">
-          </label>
-        </div>
+    <main>
       <div>
-        <label>
-          Last name
-           <input type="text" name="lastname">
-           </label>
-          </div>
-        <div>
-          <label>
-            Date of birth
-           <input type="date" name="dateofbirth" >
-          </label>  
+        <h1 class="heading-title">Contact us</h1>
+        <ul>
+          <li>
+            <a class="page-link" href="#">Home</a>
+          </li>
+          <li>
+            <a class="page-link" href="#">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <svg
+              width="56"
+              height="57"
+              viewBox="0 0 56 57"
+              xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="images/spite.svg#location-icon"/></svg>
+            <a class="location-mark" href="#">
+              <p class="contact-link">Location</p>
+              <p class="contact-link-text">2163 Phillips Gap Rd</p></a>
+          </li>
+          <li>
+            <svg
+              width="56"
+              height="57"
+              viewBox="0 0 56 57"
+              xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="images/spite.svg#mail-icon" />
+            </svg>
+            <a class="email-link" href="#">
+              <p class="contact-link">Email</p>
+               <p class="contact-link-text">Info.avitex@gmail.com</p></a>
+          </li>
+          <li>
+            <p>
+              <svg
+                width="56"
+                height="57"
+                viewBox="0 0 56 57"
+                xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="images/spite.svg#phone-icon" /></svg>
+              <p class="contact-link">Phone</p>
+              <p class="contact-link-text"> +1 666 8888</p>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="get-in-touch">
+        <div class="get-in-touch__header">
+          <h2 class="form-title">Get in touch</h2>
+          <p class="form-title-text">Browse through the most freuently asked questions</p>
         </div>
-          <div>
-            <input type="radio" name="gender" value="male" id="male-id">
-            <label for="male-id">Male</label>
-            <input type="radio" name="gender" value="female" id="female-id">
-            <label for="female-id">Female</label>
+        <form action="#" method="post" class="contact-form">
+          <div class="form-switcher">
+            <span class="form-switcher__text">Use my profile information</span>
+            <input
+              type="checkbox"
+              class="input-hidden form-switcher__input"
+              id="switch" />
+            <label for="switch" class="form-switcher__box"></label>
           </div>
-          <div>
-            <label for="email-id">Email</label>
-            <input type="email" name="email" id="email-id" reqired />
-           </div>
-          <div>
-            <label for="tel-id">Phone Number</label>
-            <input type="tel" name="telefon" id="tel-id" reqired />
+          <div class="form-control">
+            <label class="form-control__label" for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              class="form-control__input"
+              minlength="3"
+              required />
           </div>
-          <div>
-            <label for="textarea-id">Message</label>
-            <textarea type="" name="message" id="textarea-id"></textarea>
+          <div class="form-control">
+            <label class="form-control__label" for="lastname">Last name</label>
+            <input
+              type="text"
+              id="lastname"
+              class="form-control__input"
+              required />
           </div>
-          <div>
-            <label for="checkbox-id">By clicking on the 'Send message' button I agree to<span> all the terms of the security policy</span></label>
-            <input type="checkbox" name="terms" id="checkbox-id"/>
+          <div class="form-control">
+            <label class="form-control__label" for="date-of-birth"
+              >Date of birth</label
+            >
+            <input
+              type="date"
+              id="date-of-birth"
+              class="form-control__input"
+              required />
           </div>
-          <button type="submit">Send Message</button>
+          <div class="form-control">
+            <div class="form-control__label">Gender</div>
+            <label class="form-radio">
+              <input
+                class="input-hidden form-radio__input"
+                type="radio"
+                name="gender"
+                checked
+                required />
+              <span class="form-radio__inner">
+                <span class="form-radio__box"></span>
+                <span class="form-radio__text">Male</span>
+              </span>
+            </label>
+            <label class="form-radio">
+              <input
+                class="input-hidden form-radio__input"
+                type="radio"
+                name="gender"
+                value="female" />
+              <span class="form-radio__inner">
+                <span class="form-radio__box"></span>
+                <span class="form-radio__text">Female</span>
+              </span>
+            </label>
+          </div>
+          <div class="form-control">
+            <label class="form-control__label" for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              class="form-control__input"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              required />
+          </div>
+          <div class="form-control">
+            <label class="form-control__label" for="phone">Phone number</label>
+            <input type="tel" id="phone" class="form-control__input" required />
+          </div>
+          <div class="form-control">
+            <label class="form-control__label" for="message">Message</label>
+            <textarea id="message" class="form-control__input"></textarea>
+          </div>
+          <label class="form-checkbox">
+            <input
+              type="checkbox"
+              class="input-hidden form-checkbox__input"
+              required />
+            <span class="form-checkbox__box"></span>
+            <span class="form-checkbox__text"
+              >By clicking on the ‘Send Message’ button I agree to
+              <a class="span-text" href="#"
+                >all the terms of the security policy</a
+              ></span
+            >
+          </label>
         </form>
-</body>
+        <button type="submit" class="form-control__submit">
+          Send Message
+        </button>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-box">
+        <div class="footer-heaading">
+          <p class="binabox">
+            <img
+              src="images/binabox-logo.svg"
+              alt="binabox logo"
+              width="35"
+              height="39" />Binabox
+          </p>
+          <p class="footer-text">
+            We are the best way to check the rarity of NFT collection.
+          </p>
+        </div>
+        <div class="footer-menu"></div>
+        <div class="footer-header">Subcribe</div>
+        <ul class="footer-list">
+          <li><a class="subcribe-list" href="#">Home</a></li>
+          <li><a class="subcribe-list" href="#">Blog</a></li>
+          <li><a class="subcribe-list" href="#">Catalog</a></li>
+          <li><a class="subcribe-list" href="#">Contact Us</a></li>
+        </ul>
+        <div class="footer-header">Company</div>
+        <ul class="footer-list">
+          <li><a class="subcribe-list" href="#">Terms Conditions</a></li>
+          <li><a class="subcribe-list" href="#">Privacy Policy</a></li>
+          <li><a class="subcribe-list" href="#">Whitepaper</a></li>
+          <li><a class="subcribe-list" href="#">Help Center</a></li>
+        </ul>
+        <hr />
+      </div>
+      <div class="media">
+        <p class="footer-lower-part">BINABOX 2022 - ALL rights reserved</p>
+        <a class="twitter" href="#">
+          <svg
+            width="24"
+            height="20"
+            viewBox="0 0 14 12"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="images/sprite.svg#twitter-icon" />
+          </svg>
+        </a>
+        <a class="facebook" href="#">
+          <svg
+            width="24"
+            height="20"
+            viewBox="0 0 12 12"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="images/sprite.svg#facebook-icon" />
+          </svg>
+        </a>
+        <a class="telegramm" href="#">
+          <svg
+            width="24"
+            height="20"
+            viewBox="0 0 24 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="images/sprite.svg#telegram-icon" />
+          </svg>
+        </a>
+        <a class="youtube" href="#">
+          <svg
+            width="24"
+            height="18"
+            viewBox="0 0 24 18"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="images/sprite.svg#youtube-icon" />
+          </svg>
+        </a>
+        <a class="tiktok" href="#">
+          <svg
+            width="20"
+            height="19"
+            viewBox="0 0 20 19"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="images/sprite.svg#tiktok-icon" />
+          </svg>
+        </a>
+        <a class="discord" href="#">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="images/sprite.svg#discord-logo" />
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
 </html>
