@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet" />
+    <link rel="icon" href="./favicon/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  </head>
+  <body>
+    <header class="header">
+      <p class="head-name">
+        <img
+          class="header-logo"
+          src="images/binabox-logo.svg"
+          alt="blue icon binabox"
+          width="36"
+          height="40" />BINABOX
+      </p>
+      <div class="header-list">
+        <ul class="header-menu">
+          <li><a class="header-link" href="/index.html">Home</a></li>
+          <li><a class="header-link" href="/blog.html">Blog</a></li>
+          <li><a class="header-link" href="#">Catalog</a></li>
+          <li><a class="header-link" href="/contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="head-buttons">
+        <svg
+          width="56"
+          height="57"
+          viewBox="0 0 56 57"
+          xmlns="http://www.w3.org/2000/svg">
+          <use xlink:href="images/spite.svg#search-icon" />
+        </svg>
+        <form method="get" action="/index.html">
+          <label class="visually-hidden" for="search">Search</label>
+          <input
+            class="search-bar"
+            type="search"
+            placeholder="Search"
+            id="search"
+            name="search" />
+        </form>
+        <a class="header-button" href="#"
+          ><svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="images/sprite.svg#discord-logo" />
+          </svg>
+          Discord</a
+        >
+        <a class="header-button-connect" href="#"
+          ><svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon">
+            <use xlink:href="images/sprite.svg#wallet-icon" />
+          </svg>
+          Connect</a
+        >
+      </div>
+    </header>
+    <aside>
+      <form method="get" action="/catalog.html">
+        <p>Clothing -</p>
+        <label for="clothing"></label>
+        <input
+          type="checkbox"
+          id="clothing"
+          name="clothing"
+          value="Combatant" />
+        Combatant
+        <label>
+          <input type="checkbox" name="clothing" value="ninja" /> Ninja
+        </label>
+        <label>
+          <input type="checkbox" name="clothing" value="king" /> King
+        </label>
+        <label>
+          <input type="checkbox" name="clothing" value="queen" />Queen
+        </label>
+        <label>
+          <input type="checkbox" name="clothing" value="robot" />Robot
+        </label>
+      </form>
+      <form>
+        <p class="form-heading">Eyes -</p>
+        <label>
+          <input type="radio" name="color" value="yellow" />Yellow
+        </label>
+        <label> <input type="radio" name="color" value="green" />Green </label>
+        <label> <input type="radio" name="color" value="mix" />Mix </label>
+        <label>
+          <input type="radio" name="color" value="orange" />Orange
+        </label>
+      </form>
+      <form>
+        <p class="form-heading">Face -</p>
+        <label>
+          <input type="radio" name="color" value="yellow" />Yellow
+        </label>
+        <label> <input type="radio" name="color" value="green" />Green </label>
+        <label> <input type="radio" name="color" value="mix" />Mix </label>
+        <label>
+          <input type="radio" name="color" value="orange" />Orange
+        </label>
+      </form>
+      <form>
+        <p class="form-heading">Skin-</p>
+        <label>
+          <input type="radio" name="color" value="yellow" />Yellow
+        </label>
+        <label> <input type="radio" name="color" value="green" />Green </label>
+        <label> <input type="radio" name="color" value="mix" />Mix </label>
+        <label>
+          <input type="radio" name="color" value="orange" />Orange
+        </label>
+      </form>
+      <form>
+        <p class="form-heading">Background -</p>
+        <label>
+          <input type="radio" name="color" value="yellow" />Yellow
+        </label>
+        <label> <input type="radio" name="color" value="green" />Green </label>
+        <label> <input type="radio" name="color" value="mix" />Mix </label>
+        <label>
+          <input type="radio" name="color" value="orange" />Orange
+        </label>
+      </form>
+      <form>
+        <p class="form-heading">Special -</p>
+        <label>
+          <input type="checkbox" name="color" value="yellow" />Yellow
+        </label>
+        <label>
+          <input type="checkbox" name="color" value="green" />Green
+        </label>
+        <label> <input type="checkbox" name="color" value="mix" />Mix </label>
+        <label>
+          <input type="checkbox" name="color" value="orange" />Orange
+        </label>
+      </form>
+      <button class="button-apply" type="submit">Apply</button>
+    </aside>
+    <main>
+      <h1 class="heading-title">Explore Catalog</h1>
+      <div class="menu">
+        <ul>
+          <li><a class="page-link" href="#">Home</a></li>
+          <li><a class="page-link" href="#">Catalog</a></li>
+        </ul>
+      </div>
+      <h2 class="main-heading">All item</h2>
+      <form>
+        <label class="visually-hidden" for="sort">Sort by</label>
+        <select class="button-sort" id="sort">
+          <option value="" hidden selected>Sort by</option>
+          <option value="newest">Newest</option>
+          <option value="most-popular">Most popular</option>
+          <option value="increasing-price">Increasing in price</option>
+          <option value="lowering-price">Lowering the price</option>
+        </select>
+        <svg
+          width="56"
+          height="57"
+          viewBox="0 0 56 57"
+          xmlns="http://www.w3.org/2000/svg">
+          <use xlink:href="images/spite.svg#search-icon" />
+        </svg>
+        <label class="visually-hidden" for="search-nft">Search</label>
+        <input
+          class="search-nft"
+          type="search"
+          placeholder="Search NFT"
+          id="search-nft"
+          name="search" />
+      </form>
+      <div>
+        <ul>
+          <li>NFT</li>
+          <li>ICO</li>
+          <li>CRYPTO</li>
+        </ul>
+        <button class="button-clear" type="button">Clear all</button>
+      </div>
+      <ul class="items-list">
+        <li>
+          <img
+            src="images/face.webp"
+            width="272"
+            height="324"
+            alt="skeleton in smoke" />
+          <img
+            src="images/label-new.webp"
+            alt="new item"
+            width="51"
+            height="36" />
+          <p class="money">$199</p>
+          <p class="product">Name Product</p>
+        </li>
+        <li>
+          <img
+            src="images/face.webp"
+            width="272"
+            height="324"
+            alt="skeleton in smoke" />
+          <img
+            src="images/popular-label.png"
+            alt="new item"
+            width="51"
+            height="36" />
+          <p class="money">$199</p>
+          <p class="product">Name Product</p>
+          <button class="button-favourites" type="button">Favourites</button>
+          <button class="button-buy" type="button">Buy</button>
+        </li>
+        <li>
+          <img
+            src="images/face.webp"
+            width="272"
+            height="324"
+            alt="skeleton in smoke" />
+          <img
+            src="images/sold-label.webp"
+            alt="new item"
+            width="51"
+            height="36" />
+          <p class="money">$199</p>
+          <p class="product">Name Product</p>
+        </li>
+        <li>
+          <img
+            src="images/face.webp"
+            width="272"
+            height="324"
+            alt="skeleton in smoke" />
+          <img
+            src="images/label-new.webp"
+            alt="new item"
+            width="51"
+            height="36" />
+          <p class="money">$199</p>
+          <p class="product">Name Product</p>
+        </li>
+        <li>
+          <img
+            src="images/face.webp"
+            width="272"
+            height="324"
+            alt="skeleton in smoke" />
+          <img
+            src="images/label-new.webp"
+            alt="new item"
+            width="51"
+            height="36" />
+          <p class="money">$199</p>
+          <p class="product">Name Product</p>
+        </li>
+        <li>
+          <img
+            src="images/face.webp"
+            width="272"
+            height="324"
+            alt="skeleton in smoke" />
+          <img
+            src="images/label-new.webp"
+            alt="new item"
+            width="51"
+            height="36" />
+          <p class="money">$199</p>
+          <p class="product">Name Product</p>
+        </li>
+        <li>
+          <img
+            src="images/face.webp"
+            width="272"
+            height="324"
+            alt="skeleton in smoke" />
+          <img
+            src="images/label-new.webp"
+            alt="new item"
+            width="51"
+            height="36" />
+          <p class="money">$199</p>
+          <p class="product">Name Product</p>
+        </li>
+        <li>
+          <img
+            src="images/face.webp"
+            width="272"
+            height="324"
+            alt="skeleton in smoke" />
+          <img
+            src="images/label-new.webp"
+            alt="new item"
+            width="51"
+            height="36" />
+          <p class="money">$199</p>
+          <p class="product">Name Product</p>
+        </li>
+        <li>
+          <img
+            src="images/face.webp"
+            width="272"
+            height="324"
+            alt="skeleton in smoke" />
+          <img
+            src="images/label-new.webp"
+            alt="new item"
+            width="51"
+            height="36" />
+          <p class="money">$199</p>
+          <p class="product">Name Product</p>
+        </li>
+      </ul>
+    </main>
+    <footer class="footer">
+      <div class="footer-box">
+        <div class="footer-heaading">
+          <p class="binabox">
+            <img
+              src="images/binabox-logo.svg"
+              alt="binabox logo"
+              width="35"
+              height="39" />Binabox
+          </p>
+          <p class="footer-text">
+            We are the best way to check the rarity of NFT collection.
+          </p>
+        </div>
+        <div class="footer-menu"></div>
+        <div class="footer-header">Subcribe</div>
+        <ul class="footer-list">
+          <li><a class="subcribe-list" href="#">Home</a></li>
+          <li><a class="subcribe-list" href="#">Blog</a></li>
+          <li><a class="subcribe-list" href="#">Catalog</a></li>
+          <li><a class="subcribe-list" href="#">Contact Us</a></li>
+        </ul>
+        <div class="footer-header">Company</div>
+        <ul class="footer-list">
+          <li><a class="subcribe-list" href="#">Terms Conditions</a></li>
+          <li><a class="subcribe-list" href="#">Privacy Policy</a></li>
+          <li><a class="subcribe-list" href="#">Whitepaper</a></li>
+          <li><a class="subcribe-list" href="#">Help Center</a></li>
+        </ul>
+        <hr />
+      </div>
+      <div class="media">
+        <p class="footer-lower-part">BINABOX 2022 - ALL rights reserved</p>
+        <a class="twitter" href="#">
+          <svg
+            width="24"
+            height="20"
+            viewBox="0 0 14 12"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="images/sprite.svg#twitter-icon" />
+          </svg>
+        </a>
+        <a class="facebook" href="#">
+          <svg
+            width="24"
+            height="20"
+            viewBox="0 0 12 12"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="images/sprite.svg#facebook-icon" />
+          </svg>
+        </a>
+        <a class="telegramm" href="#">
+          <svg
+            width="24"
+            height="20"
+            viewBox="0 0 24 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="images/sprite.svg#telegram-icon" />
+          </svg>
+        </a>
+        <a class="youtube" href="#">
+          <svg
+            width="24"
+            height="18"
+            viewBox="0 0 24 18"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="images/sprite.svg#youtube-icon" />
+          </svg>
+        </a>
+        <a class="tiktok" href="#">
+          <svg
+            width="20"
+            height="19"
+            viewBox="0 0 20 19"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="images/sprite.svg#tiktok-icon" />
+          </svg>
+        </a>
+        <a class="discord" href="#">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="images/sprite.svg#discord-logo" />
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
