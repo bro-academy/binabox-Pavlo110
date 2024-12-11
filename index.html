@@ -35,7 +35,7 @@
         </ul>
       </div>
       <div class="head-buttons">
-        <form method="get" action="/index.html">
+        <form class="search-form" method="get" action="/index.html">
           <svg
             width="24"
             height="24"
@@ -50,19 +50,16 @@
             placeholder="Search"
             id="search"
             name="search" />
-        </form>
-        <a class="header-button" href="#"
-          ><svg
+        <a class="header-button" href="#">
+          <svg
             width="24"
             height="24"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg">
             <use xlink:href="#discord-icon" />
           </svg>
-          Discord</a
-        >
-        <a class="header-button-connect" href="#"
-          ><svg
+          Discord</a>
+        <a class="header-button-connect" href="#"><svg
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -70,19 +67,22 @@
             class="icon">
             <use xlink:href="#wallet-icon" />
           </svg>
-          Connect</a
-        >
+          Connect</a>
+          </form>
       </div>
     </header>
     <main class="main">
+      <div class="alfa">
       <div class="first-box">
         <div class="first-blog">
-          <h1 class="header-one">
-            WITH <span class="highlight">BINABOX</span>EXPLORE NFT COLLECTION
+          <h1 class="first-box-heading">
+            WITH <span class="highlight">BINABOX </span>EXPLORE 
+            <span class="line-break">NFT COLLECTION</span>
           </h1>
           <p class="text-binabox">
             We are the best way to check te rarity of NFT collection
           </p>
+        </div>
           <div class="middle-of-blog">
             <div class="total">
               <p class="digits">2200+</p>
@@ -100,13 +100,8 @@
             <button type="button" class="action-bar-whitelist">
               Whitelist now
             </button>
-          </div>
         </div>
-        <img
-          src="images/background-logo.webp"
-          alt="background logo"
-          width="337"
-          height="337" />
+      </div>
       </div>
       <div class="catalog">
         <div class="catalog-head">
@@ -140,89 +135,102 @@
             </svg>
           </button>
         </div>
+      <div class="catalog-item">
         <ul class="items-list">
-          <li>
-            <img
+          <li class="catalog-block ">
+            <img 
               src="images/skeleton.webp"
               width="240"
               height="324"
               alt="skeleton in smoke" />
-            <img
+            <img class="label-icon"
               src="images/label-new.webp"
               alt="new item"
               width="51"
               height="36" />
+              <div class="catalog-text">
             <p class="money">$199</p>
             <p class="product">Name Product</p>
+              </div>
           </li>
-          <li>
+          <li class="catalog-block">
             <img
               src="images/black-cat.webp"
               width="240"
               height="324"
               alt="green-eyed black cat" />
-            <img
+            <img class="label-icon"
               src="images/label-new.webp"
               alt="new item"
               width="51"
               height="36" />
-            <p class="money">$199</p>
-            <p class="product">Name Product</p>
+              <div class="catalog-text">
+                <p class="money">$199</p>
+                <p class="product">Name Product</p>
+                  </div>
           </li>
-          <li>
+          <li class="catalog-block">
             <img
               src="images/scissors.webp"
               width="240"
               height="324"
               alt="black steel scissors " />
-            <img
+            <img class="label-icon"
               src="images/sold-label.webp"
               alt="sold out label"
               width="78"
               height="36" />
-            <p class="money">$199</p>
-            <p class="product">Name Product</p>
+              <div class="catalog-text">
+                <p class="money">$199</p>
+                <p class="product">Name Product</p>
+                  </div>
           </li>
-          <li>
-            <img
+          <li class="catalog-block">
+            <img 
               src="images/green-card.webp"
               width="240"
               height="324"
               alt="green card" />
-            <img
+            <img class="label-icon"
               src="images/label-new.webp"
               alt="new item"
               width="51"
               height="36" />
-            <p class="money">$199</p>
-            <p class="product">Name Product</p>
+              <div class="catalog-text">
+                <p class="money">$199</p>
+                <p class="product">Name Product</p>
+                  </div>
           </li>
-          <li>
+          <li class="catalog-block">
             <img
               src="images/gameboy.webp"
               width="240"
               height="324"
               alt="neon gameboy" />
-            <img
+            <img class="label-icon"
               src="images/label-new.webp"
               alt="new item"
               width="51"
               height="36" />
-            <p class="money">$199</p>
-            <p class="product">Name Product</p>
+              <div class="catalog-text">
+                <p class="money">$199</p>
+                <p class="product">Name Product</p>
+                  </div>
           </li>
         </ul>
+      </div>
       </div>
       <div class="blog">
         <h3 class="heading-blog">Our Blog</h3>
         <ul class="blog-list">
           <li class="list-one">
+            <div class="face-block">
             <img
               src="images/face.webp"
               alt="woman's face"
               width="736"
               height="640" />
-            <img
+            <img class="label-icon"
               src="images/nft-label.webp"
               alt="nft-label"
               width="46"
@@ -251,15 +259,17 @@
               nulla imperdiet...
             </p>
             <button type="button" class="information">Read more</button>
+            </div>
           </li>
           <li class="list-two">
             <div class="container-one">
               <img
-                src="images/monkey.webp"
-                alt="monkey's face looking on you"
+                src="images/skeleton-main-page.webp"
+                alt="human bones in smoke"
                 width="736"
                 height="174" />
               <img
+              class="label-icon"
                 src="images/nft-label.webp"
                 alt="nft-label"
                 width="46"
@@ -291,11 +301,12 @@
             </div>
             <div class="container-two">
               <img
-                src="images/goose.webp"
-                alt="white goose"
+                src="images/black-cat-main-page.webp"
+                alt="green eyed black cat"
                 width="736"
                 height="174" />
               <img
+              class="label-icon"
                 src="images/nft-label.webp"
                 alt="nft-label"
                 width="46"
@@ -329,11 +340,12 @@
           <li class="list-three">
             <div class="container-three">
               <img
-                src="images/skeleton-main-page.webp"
-                alt="bones in smoke"
+                src="images/monkey.webp"
+                alt="monkey staring at you"
                 width="736"
                 height="174" />
               <img
+              class="label-icon"
                 src="images/nft-label.webp"
                 alt="nft-label"
                 width="46"
@@ -365,11 +377,12 @@
             </div>
             <div class="container-four">
               <img
-                src="images/black-cat-main-page.webp"
-                alt="green-eyed black cat"
+                src="images/goose.webp"
+                alt="white goose"
                 width="736"
                 height="174" />
               <img
+              class="label-icon"
                 src="images/nft-label.webp"
                 alt="nft-label"
                 width="46"
@@ -407,6 +420,7 @@
               width="736"
               height="640" />
             <img
+            class="label-icon"
               src="images/nft-label.webp"
               alt="nft-label"
               width="46"
@@ -459,21 +473,21 @@
               typesetting industry.
             </p>
           </li>
-          <li class="cube-two">
+          <li class="cube-one">
             <p class="box-header">Collection 02</p>
             <p class="cube-text">
               Lorem Ipsum is simply dummy text of the printing and Ipsum
               typesetting industry.
             </p>
           </li>
-          <li class="cube-three">
+          <li class="cube-one">
             <p class="box-header">Top resource 03</p>
             <p class="cube-text">
               Lorem Ipsum is simply dummy text of the printing and Ipsum
               typesetting industry.
             </p>
           </li>
-          <li class="cube-four">
+          <li class="cube-one">
             <p class="box-header">Big community04</p>
             <p class="cube-text">
               Lorem Ipsum is simply dummy text of the printing and Ipsum
@@ -494,6 +508,7 @@
               height="127" />
             <p class="team-name">Jason Smith</p>
             <p class="founder">Co-founder</p>
+              <div class="card-one-links">
             <a class="twitter" href="#">
               <svg
                 width="24"
@@ -539,6 +554,7 @@
                 <use xlink:href="#instagram-icon" />
               </svg>
             </a>
+              </div>
           </li>
           <li class="card-one">
             <img
@@ -548,6 +564,7 @@
               height="127" />
             <p class="team-name">Jason Smith</p>
             <p class="founder">Co-founder</p>
+              <div class="card-one-links">
             <a class="twitter" href="#">
               <svg
                 width="24"
@@ -593,6 +610,7 @@
                 <use xlink:href="#instagram-icon" />
               </svg>
             </a>
+              </div>
           </li>
           <li class="card-one">
             <img
@@ -602,6 +620,7 @@
               height="127" />
             <p class="team-name">Jason Smith</p>
             <p class="founder">Co-founder</p>
+              <div class="card-one-links">
             <a class="twitter" href="#">
               <svg
                 width="24"
@@ -647,8 +666,8 @@
                 <use xlink:href="#instagram-icon" />
               </svg>
             </a>
-          </li>
-          <li class="card-one">
+              </div>
+          </li><li class="card-one">
             <img
               src="images/team-image.svg"
               alt="handsome bearded man"
@@ -656,6 +675,7 @@
               height="127" />
             <p class="team-name">Jason Smith</p>
             <p class="founder">Co-founder</p>
+              <div class="card-one-links">
             <a class="twitter" href="#">
               <svg
                 width="24"
@@ -701,8 +721,8 @@
                 <use xlink:href="#instagram-icon" />
               </svg>
             </a>
-          </li>
-          <li class="card-one">
+              </div>
+          </li><li class="card-one">
             <img
               src="images/team-image.svg"
               alt="handsome bearded man"
@@ -710,6 +730,7 @@
               height="127" />
             <p class="team-name">Jason Smith</p>
             <p class="founder">Co-founder</p>
+              <div class="card-one-links">
             <a class="twitter" href="#">
               <svg
                 width="24"
@@ -755,8 +776,8 @@
                 <use xlink:href="#instagram-icon" />
               </svg>
             </a>
-          </li>
-          <li class="card-one">
+              </div>
+          </li><li class="card-one">
             <img
               src="images/team-image.svg"
               alt="handsome bearded man"
@@ -764,6 +785,7 @@
               height="127" />
             <p class="team-name">Jason Smith</p>
             <p class="founder">Co-founder</p>
+              <div class="card-one-links">
             <a class="twitter" href="#">
               <svg
                 width="24"
@@ -809,8 +831,8 @@
                 <use xlink:href="#instagram-icon" />
               </svg>
             </a>
-          </li>
-          <li class="card-one">
+              </div>
+          </li><li class="card-one">
             <img
               src="images/team-image.svg"
               alt="handsome bearded man"
@@ -818,6 +840,7 @@
               height="127" />
             <p class="team-name">Jason Smith</p>
             <p class="founder">Co-founder</p>
+              <div class="card-one-links">
             <a class="twitter" href="#">
               <svg
                 width="24"
@@ -863,8 +886,8 @@
                 <use xlink:href="#instagram-icon" />
               </svg>
             </a>
+              </div>
           </li>
-        </ul>
       </div>
       <div class="faqs">
         <h6 class="heading-blog">FAQs</h6>
@@ -904,25 +927,28 @@
             We are the best way to check the rarity of NFT collection.
           </p>
         </div>
-        <div class="footer-menu"></div>
-        <div class="footer-header">Subcribe</div>
+        <div class="footer-menu">
+        <div class="footer-header">Subcribe
         <ul class="footer-list">
           <li><a class="subcribe-list" href="#">Home</a></li>
           <li><a class="subcribe-list" href="#">Blog</a></li>
           <li><a class="subcribe-list" href="#">Catalog</a></li>
           <li><a class="subcribe-list" href="#">Contact Us</a></li>
         </ul>
-        <div class="footer-header">Company</div>
+        </div>
+        <div class="footer-header">Company
         <ul class="footer-list">
           <li><a class="subcribe-list" href="#">Terms Conditions</a></li>
           <li><a class="subcribe-list" href="#">Privacy Policy</a></li>
           <li><a class="subcribe-list" href="#">Whitepaper</a></li>
           <li><a class="subcribe-list" href="#">Help Center</a></li>
         </ul>
-        <hr />
+        </div>
+      </div>
       </div>
       <div class="media">
         <p class="footer-lower-part">BINABOX 2022 - ALL rights reserved</p>
+        <div class="media-links">
         <a class="twitter" href="#">
           <svg
             width="24"
@@ -977,6 +1003,7 @@
             <use xlink:href="#discord-icon" />
           </svg>
         </a>
+        </div>
       </div>
     </footer>
     <svg
